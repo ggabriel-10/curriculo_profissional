@@ -1,0 +1,48 @@
+.imagem-projeto-app{
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.projetos-app{
+    height: 1500px;
+    width: 100%;
+    margin-top: 10vh;
+    
+
+}
+.title-projetos-app{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.text-projetos-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.descrição-projeto-app{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descrição-projeto-app dt{
+    padding-top: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.descrição-projeto-app dd{
+    padding-top: 15px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: white;
+    padding-left: 10px;
+}

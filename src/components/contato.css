@@ -1,0 +1,37 @@
+.contato{
+    height: 50vh;
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.contato__container__item{
+    padding-left: 5vh;
+
+
+}
+.contato__container{
+    display: flex;
+    justify-content: center;
+}
+.contato__container__item > a > img {
+    width: 12vh;
+    height: 12vh;
+}
+
+.contato > p {
+    font-size: 25px;
+    color: white;
+}
+
+.contato > h1{
+    color: white;
+    font-size: 50px;
+}
+
+.contato__container__item:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}

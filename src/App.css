@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 50px;
+  height: 50px;
+  pointer-events: none;
+}
+
+
+.App-header {
+  min-height: 130px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+.my-photo{
+  border-radius: 50%;
+  
+}
+.information-app{
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  padding-top: 10%;
+}
+.title-app{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 90%;
+  width: 50%;
+  margin-top: 30px;
+  justify-content: center;
+}
+.information-app .title-app h1{
+  font-size: 50px;
+}
+.information-app .title-app h2{
+  font-size: 30px;
+}
+.navegation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 90px;
+  padding-right: 10vh;
+}
+
+ul{
+  list-style: none;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  display: flex;
+}
+li{
+  padding-left: 20px;
+}
+
+
+
