@@ -61,6 +61,8 @@
     .descrição-projeto-app{
         display: flex;
         align-items: center;
+        padding-right: 35px;
+        background-color: aqua;
     }
 
     .imagem-projeto-app{
