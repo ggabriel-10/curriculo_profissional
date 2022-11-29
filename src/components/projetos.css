@@ -46,3 +46,32 @@
     color: white;
     padding-left: 10px;
 }
+
+@media (max-width: 768px) {
+    .text-projetos-app{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-invert{
+        display: -webkit-flex;
+        -webkit-flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
+    }
+    .descrição-projeto-app{
+        display: flex;
+        align-items: center;
+    }
+
+    .imagem-projeto-app{
+        width: 70%;
+        height: 70%;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+    .projetos-app{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

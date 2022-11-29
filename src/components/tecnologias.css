@@ -29,3 +29,14 @@
     transition: all 0.5s;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+
+    .image-tecnologies{
+        flex-direction: column;
+    }
+
+    .image-tec{
+        padding-top: 15px;
+    }
+}

@@ -21,3 +21,9 @@ button:hover{
     transition: all 0.5s;
     background-color: rgba(77, 75, 75, 0.5);
 }
+
+@media (max-width: 768px) {
+    button{
+        width: 250px;
+    }
+}

@@ -14,14 +14,12 @@ body {
   position: relative;
   background-position: 30% 45%;
 
-  /* -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover; */
+  -o-background-size: cover;
   min-height: 500vh;
   width: 100%;
-
-
 }
 a {
   color: rgb(255, 255, 255);
@@ -48,4 +46,10 @@ a:hover::after{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 896px) {
+  body {
+    background-position: 30% 45%;
+  }
 }

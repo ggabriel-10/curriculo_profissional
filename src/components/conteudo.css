@@ -1,6 +1,5 @@
 .sobre-mim-app{
     display: flex;
-
     height: 50vh;
     flex-direction: column;
     justify-content: space-around;
@@ -25,4 +24,27 @@
     height: 70%;
     font-size: 20px;
     padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+
+    .sobre-mim-app{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .title-conteudo-app{
+        font-size: 30px;
+    }
+
+    .text-conteudo-app{
+        width: 80%;
+        height: 100%;
+        font-size: 15px;
+
+    }
+
 }

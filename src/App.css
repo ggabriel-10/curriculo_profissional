@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -24,17 +25,20 @@
 .App-link {
   color: #61dafb;
 }
-.my-photo{
+
+.my-photo {
   border-radius: 50%;
-  
+
 }
-.information-app{
+
+.information-app {
   display: flex;
   height: 50vh;
   justify-content: center;
   padding-top: 10%;
 }
-.title-app{
+
+.title-app {
   display: flex;
   flex-direction: column;
   color: white;
@@ -43,13 +47,16 @@
   margin-top: 30px;
   justify-content: center;
 }
-.information-app .title-app h1{
+
+.information-app .title-app h1 {
   font-size: 50px;
 }
-.information-app .title-app h2{
+
+.information-app .title-app h2 {
   font-size: 30px;
 }
-.navegation{
+
+.navegation {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -58,15 +65,66 @@
   padding-right: 10vh;
 }
 
-ul{
+ul {
   list-style: none;
   align-items: flex-end;
   justify-content: space-evenly;
   display: flex;
 }
-li{
+
+li {
   padding-left: 20px;
 }
 
 
+@media (max-width: 768px) {
+  .information-app {
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
+    align-items: center;
+    height: 70vh;
+    padding-top: 0;
+  }
+  .my-photo{
+    width: 250px;
+    height: 250px;
+  }
+  .information-app .title-app h1 {
+    font-size: 40px;
+  }
+  
+  .information-app .title-app h2 {
+    font-size: 20px;
+  }
 
+  .title-app {
+    width: 100%;
+    height: 40%;
+    margin-top: 0;
+  }
+
+  .navegation {
+    display: none;
+    /* flex-direction: column;
+    gap: 0;
+    padding-right: 0; */
+  }
+
+  .navegation ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navegation ul li {
+    padding-left: 0;
+  }
+  .App {
+    text-align: center;
+    width: 50vh;
+  }
+  .App-logo {
+    display: none;
+  }
+}

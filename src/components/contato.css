@@ -7,13 +7,18 @@
     justify-content: space-around
 }
 .contato__container__item{
-    padding-left: 5vh;
-
-
+    padding-left: 6vh;
 }
 .contato__container{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+}
+.contato__container_one{
+    display: flex;
+}
+.contato__container_two{
+    display: flex;
 }
 .contato__container__item > a > img {
     width: 12vh;
@@ -34,4 +39,21 @@
     transform: scale(1.1);
     transition: all 0.5s;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .contato__container{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .contato__container__item > a > img {
+        width: 8vh;
+        height: 8vh;
+        padding-top: 15px;
+
+    }
+    .contato{
+        align-items: center;
+    }
 }

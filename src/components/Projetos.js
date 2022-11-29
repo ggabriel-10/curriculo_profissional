@@ -21,7 +21,7 @@ export function Projetos() {
                     </dl>
                 </div>
 
-                <div className="text-projetos-app">
+                <div className="text-projetos-app text-invert">
                     
                     <dl className="descrição-projeto-app">
                         <dt><h1>Pokedéx</h1></dt>
