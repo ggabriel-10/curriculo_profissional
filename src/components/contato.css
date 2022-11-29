@@ -45,6 +45,7 @@
     .contato__container{
         flex-direction: column;
         align-items: center;
+        padding-right: 40px;
 
     }
     .contato__container__item > a > img {
@@ -55,5 +56,7 @@
     }
     .contato{
         align-items: center;
+
     }
+
 }
