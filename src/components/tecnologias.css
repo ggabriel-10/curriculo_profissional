@@ -40,3 +40,11 @@
         padding-top: 15px;
     }
 }
+
+@media (min-width: 1000px) {
+    .area-tecnologies{
+        padding-top: 10vh;
+        margin-top: 60vh;
+
+    }
+}
