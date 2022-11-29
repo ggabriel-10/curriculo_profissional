@@ -47,7 +47,7 @@
     padding-left: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     .text-projetos-app{
         display: flex;
         flex-direction: column;

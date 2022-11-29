@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     .contato__container{
         flex-direction: column;
         align-items: center;

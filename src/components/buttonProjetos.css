@@ -22,7 +22,7 @@ button:hover{
     background-color: rgba(77, 75, 75, 0.5);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     button{
         width: 250px;
     }

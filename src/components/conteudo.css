@@ -26,7 +26,7 @@
     padding-top: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 896px) {
 
     .sobre-mim-app{
         display: flex;
