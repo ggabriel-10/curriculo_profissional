@@ -41,6 +41,13 @@
     }
 }
 
+@media (max-width: 768px) {
+    .image-tecnologies{
+        padding-right: 30px;
+        
+    }
+}
+
 @media (min-width: 1000px) {
     .area-tecnologies{
         padding-top: 10vh;

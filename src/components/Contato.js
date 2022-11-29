@@ -3,7 +3,7 @@ import './contato.css';
 export function Contato(){
     return(
         <div className="contato">
-            <h1>Contato</h1>
+            <h1 className='contato-title'>Contato</h1>
             <p>Entre em contato comigo!</p>
             <div className="contato__container">
                 <div className='contato__container_one'>
