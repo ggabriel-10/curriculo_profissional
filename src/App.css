@@ -107,9 +107,6 @@ li {
 
   .navegation {
     display: none;
-    /* flex-direction: column;
-    gap: 0;
-    padding-right: 0; */
   }
 
   .navegation ul {

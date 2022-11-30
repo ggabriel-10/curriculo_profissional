@@ -3,7 +3,7 @@ import '../App.css';
 
 export function Conteudo(){
     return(
-        <section className="sobre-mim-app">
+        <section className="sobre-mim-app" id='conteudo'>
             <div className="title-conteudo-app">
                 <h2>Sobre Mim</h2>
             </div>

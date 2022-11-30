@@ -8,7 +8,7 @@ export function Projetos() {
     return (
         <div>
             
-            <section className="projetos-app">
+            <section className="projetos-app" id="projetos">
                 <div className="title-projetos-app">
                     <h2>Meus Projetos</h2>
                 </div>

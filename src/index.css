@@ -21,10 +21,11 @@ body {
   min-height: 500vh;
   width: 100%;
 }
-a {
+.item-navegation {
   color: rgb(255, 255, 255);
   text-decoration: none;
   position: relative;
+  cursor: pointer;
 }
 .item-navegation::after{
   content: " ";
@@ -37,7 +38,7 @@ a {
   transition: 0.5s ease-in-out;
 }
 
-a:hover::after{
+.item-navegation:hover::after{
   width: 100%;
 
 }
@@ -52,4 +53,8 @@ code {
   body {
     background-position: 30% 45%;
   }
+}
+
+html{
+  scroll-behavior: smooth;
 }

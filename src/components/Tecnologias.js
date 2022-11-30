@@ -3,7 +3,7 @@ import './tecnologias.css';
 
 export function Tecnologias(){
     return(
-        <div className='area-tecnologies'>
+        <div className='area-tecnologies' id='tecnologias'>
             <h1 className='title-tecnologies'>Tecnologias</h1>
             <div className="image-tecnologies">
                 <div className='image-tecnologies-one'>
