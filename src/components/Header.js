@@ -1,4 +1,4 @@
-
+import { FaBars } from 'react-icons/fa';
 import '../App.css';
 export function Header() {
     return (
@@ -14,6 +14,17 @@ export function Header() {
                             <li><a className='item-navegation' href="#contato">Contato</a></li>
                         </ul>
                     </nav>
+                    <nav className='navegation-mobile'>
+                        <FaBars className='item-bars'/>
+                        <ul className='navegation-mobile-item'>
+                            <li><a className='item-navegation' href="#header">Inicio</a></li>
+                            <li><a className='item-navegation' href="#conteudo">Sobre Mim</a></li>
+                            <li><a className='item-navegation' href="#projetos">Projetos</a></li>
+                            <li><a className='item-navegation' href="#tecnologias">Tecnologias</a></li>
+                            <li><a className='item-navegation' href="#contato">Contato</a></li>
+                        </ul>
+                    </nav>
+
                 </header>
                 <section className='information-app'>
                 <div className='title-app'>

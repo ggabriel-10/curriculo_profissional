@@ -46,5 +46,8 @@
         font-size: 15px;
 
     }
+    .navegation-mobile-item{
+        display: none;
+    }
 
 }
