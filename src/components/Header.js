@@ -1,4 +1,8 @@
 import { FaBars } from 'react-icons/fa';
+import {IoClose} from 'react-icons/io5';
+import { addClass } from './add.class';
+import { removeClass } from './remove.class';
+
 import '../App.css';
 export function Header() {
     return (
@@ -14,9 +18,10 @@ export function Header() {
                             <li><a className='item-navegation' href="#contato">Contato</a></li>
                         </ul>
                     </nav>
-                    <nav className='navegation-mobile'>
-                        <FaBars className='item-bars'/>
-                        <ul className='navegation-mobile-item'>
+                    <nav className='navegation-mobile' >
+                        <FaBars className='item-bars' onClick={addClass}/>
+                        <ul className='navegation-mobile-item' id='nav-mobile'>
+                            <IoClose size={45} className='item-close' onClick={removeClass}/>
                             <li><a className='item-navegation' href="#header">Inicio</a></li>
                             <li><a className='item-navegation' href="#conteudo">Sobre Mim</a></li>
                             <li><a className='item-navegation' href="#projetos">Projetos</a></li>
