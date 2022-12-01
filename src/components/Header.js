@@ -22,11 +22,11 @@ export function Header() {
                         <FaBars className='item-bars' onClick={addClass}/>
                         <ul className='navegation-mobile-item' id='nav-mobile'>
                             <IoClose size={45} className='item-close' onClick={removeClass}/>
-                            <li><a className='item-navegation' href="#header">Inicio</a></li>
-                            <li><a className='item-navegation' href="#conteudo">Sobre Mim</a></li>
-                            <li><a className='item-navegation' href="#projetos">Projetos</a></li>
-                            <li><a className='item-navegation' href="#tecnologias">Tecnologias</a></li>
-                            <li><a className='item-navegation' href="#contato">Contato</a></li>
+                            <li><a className='item-navegation' href="#header"onClick={removeClass}>Inicio</a></li>
+                            <li><a className='item-navegation' href="#conteudo"onClick={removeClass}>Sobre Mim</a></li>
+                            <li><a className='item-navegation' href="#projetos"onClick={removeClass}>Projetos</a></li>
+                            <li><a className='item-navegation' href="#tecnologias"onClick={removeClass}>Tecnologias</a></li>
+                            <li><a className='item-navegation' href="#contato"onClick={removeClass}>Contato</a></li>
                         </ul>
                     </nav>
 
