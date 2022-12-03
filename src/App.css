@@ -131,7 +131,7 @@ li {
   }
   .App {
     text-align: center;
-    width: 50vh;
+    width: 100%;
   }
   .App-logo {
     display: none;
@@ -141,7 +141,7 @@ li {
     display: flex;
     width: 100%;
     height: 100%;
-    justify-content: end;
+    justify-content: flex-end;
     
   }
   .item-bars{
@@ -162,7 +162,7 @@ li {
   .item-close{
     display: flex;
     flex-direction: column;
-    padding-left: 25rem;
+    padding-left: 23rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
     margin-bottom: 10vh;
@@ -178,14 +178,14 @@ li {
     position: absolute;
     backdrop-filter: blur(3px);
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
+    padding-right: 2rem;
     gap: 2rem;
     z-index: 5;
-    height: 90vh;
-    width: 60vh;
+    height: 20%;
+    width: 100%;
     flex-direction: column;
     background: linear-gradient(139.26deg, #000000 -0.62%, #16161a 27.67%, #271414 84.31%, #5c0000 101.52%);;
-    /* background: #61dafb; */
   }
 
 }
