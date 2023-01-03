@@ -2,6 +2,7 @@ import ButtonProjetos from "./ButtonProjetos";
 import tasklist from "../image/tasklist.png";
 import pokedex from "../image/pokedex.png";
 import formulario_dev from "../image/formulario_dev.png";
+import get_message from "../image/get_message.png";
 import './projetos.css';
 
 export function Projetos() {
@@ -40,6 +41,15 @@ export function Projetos() {
                     </dl>
                 </div>
 
+                <div className="text-projetos-app text-invert">
+                    
+                    <dl className="descrição-projeto-app">
+                        <dt><h1>Get Message</h1></dt>
+                        <dd>Projeto de um gerador de mensagens feito em HTML,<br></br> CSS e JavaScript, consumindo API com AXIOS</dd>
+                        <ButtonProjetos label="Link do Projeto" link="https://ggabriel-10.github.io/Get-Message/"/>
+                    </dl>
+                    <img className="imagem-projeto-app" src={get_message} alt="Logo-projeto"/>
+                </div>
             </section>
         </div>
     )
