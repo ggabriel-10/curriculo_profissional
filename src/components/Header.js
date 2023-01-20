@@ -14,6 +14,7 @@ export function Header() {
                             <li><a className='item-navegation' href="#header">Inicio</a></li>
                             <li><a className='item-navegation' href="#conteudo">Sobre Mim</a></li>
                             <li><a className='item-navegation' href="#projetos">Projetos</a></li>
+                            <li><a className='item-navegation' href="#study">Cursos</a></li>
                             <li><a className='item-navegation' href="#tecnologias">Tecnologias</a></li>
                             <li><a className='item-navegation' href="#contato">Contato</a></li>
                         </ul>
@@ -25,6 +26,7 @@ export function Header() {
                             <li><a className='item-navegation' href="#header"onClick={removeClass}>Inicio</a></li>
                             <li><a className='item-navegation' href="#conteudo"onClick={removeClass}>Sobre Mim</a></li>
                             <li><a className='item-navegation' href="#projetos"onClick={removeClass}>Projetos</a></li>
+                            <li><a className='item-navegation' href="#study"onClick={removeClass}>Cursos</a></li>
                             <li><a className='item-navegation' href="#tecnologias"onClick={removeClass}>Tecnologias</a></li>
                             <li><a className='item-navegation' href="#contato"onClick={removeClass}>Contato</a></li>
                         </ul>

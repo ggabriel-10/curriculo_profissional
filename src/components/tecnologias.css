@@ -48,14 +48,14 @@
     }
     .area-tecnologies{
         padding-top: 10vh;
-        margin-top: 40vh;
+        margin-top: 20vh;
     }
 }
 
 @media (min-width: 1000px) {
     .area-tecnologies{
         padding-top: 10vh;
-        margin-top: 60vh;
+        margin-top: 30vh;
 
     }
 }

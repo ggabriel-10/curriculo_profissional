@@ -8,7 +8,7 @@ export default function ButtonProjetos(props) {
   
     return (
       <div>
-        <button onClick={() => openInNewTab(props.link)}>
+        <button className='button-projetos' onClick={() => openInNewTab(props.link)}>
             <img src="https://img.icons8.com/emoji/344/link-emoji.png" width={20} alt={props.alt}/>
             {props.label}
         </button>
