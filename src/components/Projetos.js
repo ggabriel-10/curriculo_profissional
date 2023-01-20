@@ -46,6 +46,7 @@ export function Projetos() {
                     <dl className="descrição-projeto-app">
                         <dt><h1>Get Message</h1></dt>
                         <dd>Projeto de um gerador de mensagens feito em HTML,<br></br> CSS e JavaScript, consumindo API com AXIOS</dd>
+                        <br></br>
                         <ButtonProjetos label="Link do Projeto" link="https://ggabriel-10.github.io/Get-Message/"/>
                     </dl>
                     <img className="imagem-projeto-app" src={get_message} alt="Logo-projeto"/>

@@ -46,6 +46,9 @@
         padding-right: 30px;
         
     }
+    .area-tecnologies{
+        padding-top: 10vh;
+    }
 }
 
 @media (min-width: 1000px) {
