@@ -1,5 +1,6 @@
 import './study.css';
 import ButtonStudy from './ButtonStudy';
+import micro from '../image/micro.png';
 
 export function Study(){
     return(
@@ -25,6 +26,12 @@ export function Study(){
                 <a href="https://www.udemy.com/"><img className='icon-study' alt='icon' src='https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png'/></a>
                 <h2>IT SECURITY SPECIALIST</h2>
                 <ButtonStudy link='https://www.udemy.com/certificate/UC-085ca238-1c77-4442-831e-5c1550bfc1ac/' alt='Certificado' label='Certificado'/>
+            </div>
+
+            <div className='study-course'>
+                <a href="https://azure.microsoft.com/pt-br/"><img className='icon-study' alt='icon' src={micro}/></a>
+                <h2>Microsoft Certified: Azure Fundamentals</h2>
+                <ButtonStudy link='https://www.credly.com/badges/2934ef74-a1ec-478b-b883-441b8c3887d8/linked_in_profile' alt='Certificado' label='Certificado'/>
             </div>
         </div>
         
