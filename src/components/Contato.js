@@ -27,7 +27,7 @@ export function Contato(){
                     </div>
                     
                     <div className="contato__container__item">
-                            <a href="https://api.whatsapp.com/send?phone=5513981448492" target="_blank" rel="noreferrer">
+                            <a href="https://api.whatsapp.com/send?phone=5511951269796" target="_blank" rel="noreferrer">
                                 <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" className="item-contato" alt="WhatsApp" />
                             </a>
                     </div>
