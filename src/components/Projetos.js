@@ -3,6 +3,7 @@ import tasklist from "../image/tasklist.png";
 import pokedex from "../image/pokedex.png";
 import formulario_dev from "../image/formulario_dev.png";
 import get_message from "../image/get_message.png";
+import sao_paulo from "../image/SPFC.png";
 import './projetos.css';
 
 export function Projetos() {
@@ -50,6 +51,15 @@ export function Projetos() {
                         <ButtonProjetos label="Link do Projeto" link="https://ggabriel-10.github.io/Get-Message/"/>
                     </dl>
                     <img className="imagem-projeto-app" src={get_message} alt="Logo-projeto"/>
+                </div>
+
+                <div className="text-projetos-app">
+                    <img className="imagem-projeto-app" src={sao_paulo } alt="Logo-projeto"/>
+                    <dl className="descrição-projeto-app">
+                        <dt><h1>São Paulo FC</h1></dt>
+                        <dd>Projeto de uma página feito em HTML e CSS, <br></br>utilizando JavaScript para validar os checkbox</dd>
+                        <ButtonProjetos label="Link do Projeto" link="https://ggabriel-10.github.io/spfc/"/>
+                    </dl>
                 </div>
             </section>
         </div>
